@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* line-height: 1.5; */
+    color: #212529;
+    background-image: url(/images/hero-bg.svg);
+}
+
+hr{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #fff 1.5px;
+    border-style: inset;
+}
+
+/* header section */
+header .containerOne{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: sticky;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.containerOne .headerLogo{
+    margin-right: 15%;
+}
+
+.nav{
+    display: flex;
+    align-content: space-around;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#about{
+    margin-right: 40px;
+}
+
+#why{
+    margin-right: 40px;
+}
+
+#stacks{
+    margin-right: 40px;
+}
+
+#faq{
+    margin-right: 40px;
+}
+
+.partOne{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    /* margin-bottom: 4%; */
+    align-items: center;
+}
+
+.partOne img{
+    border: 0.8rem solid rgb(231,51,43);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: hsl(5,79%,72%);
+    position: absolute;
+    /* left: 0px; */
+    top: -15px; 
+    z-index: 4;
+}
+
+.enrollButton{
+    background-color:rgb(231,51,43);
+    color: #fff;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right:40px ; 
+    font-size: 1.1rem;
+    font-weight: 400; 
+    margin-left: 35px;
+    border: none;
+}
+/* end of header section */
+
+/* hero section */
+.containerTwo{
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%; 
+    position: relative;
+    margin-bottom: 20%;
+}
+
+.partTwo p{
+    text-align: center;
+    color: rgb(231,51,43);
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+.heroImageOne{
+    width: 28%;
+    height: 52%;
+    position: relative;
+    margin-top: 5%;
+}
+
+.heroImageTwo{
+    width: 19em;
+    height: 23em;
+    /* margin-left: 25%; */
+}
+
+.heroImageThree{
+    position: absolute;
+    top: 91%;
+    left: 55%;
+    z-index: 1;
+    width: 7%;
+}
+
+.heroImageFour{
+    margin-left: 30%; 
+    height: 15%;
+    width: 5%;
+    position: absolute;
+    bottom: 2px;
+    left: -90px;
+}
+
+ .line{
+    width: 12%;
+    height: 11%;
+    position: absolute;
+    left: 50%;
+    top: 42%; 
+    border: none;
+    z-index: 1;
+} 
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroTextOne{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.heroTextTwo{
+    text-align: center;
+    color: #212529;
+    font-size: 1.3em;
+    font-weight: 200;
+    margin-top: 40px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    background-color: rgb(231,51,43);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 6%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border: none;
+    position: relative;
+    z-index: 2;
+}
+
+/* end of hero section */
+
+ /* beginning of containerTwo section  */
+/* end of containerTwo sectiom */
+/*  FAQs SECTION*/
+.FAQSection{
+    position: relative;
+}
+
+.FAQHeader{
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 10%;
+}
+
+.FAQHeader p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: red;
+}
+
+.FAQHeader h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.FAQHeader img{
+    width: 26%;
+    height: 17%;
+    position: absolute;
+    left: 7%;
+    top: -11%; 
+    border: none;
+    z-index: 1; 
+} 
+#FAQs{
+    display: grid;
+    place-content: center;
+}
+
+.FAQ{
+    width: 100%;
+    border:1px solid rgb(194, 189, 189);
+    padding: 20px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQ h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.FAQ p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.FAQuestion{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35rem;
+}
+
+.FAQAnswer{
+    display: none;
+}
+
+.FAQ.showFAQ .FAQAnswer{
+    display: block;
+}
+
+.FAQText{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    
+}
+
+.FAQText button{
+    padding: 14px 40px;
+    border-radius: 20px;
+    background:  rgb(231,51,43);
+    margin-left: 1%;
+    color: #fff;
+    margin-bottom: -15px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
+.FAQText .btn{
+    display: flex;
+    align-content: space-between;
+}
+
+.FAQText .icon{
+    width: 2em;
+}
+/* end of FAQs SECTION*/
+
+/* beginning of  program section */
+.programSection{
+    position: relative;
+    margin-top: 14%;
+}
+
+.programImage1{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    left: 15%;
+    top: -5%; 
+    border: none;
+    z-index: 1; 
+}
+
+.programImage2{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    background-color:rgb(231,51,43);
+    left: 85%;
+    top: -4%;
+}
+
+.programImage3{
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+
+#circle{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    left: 80%;
+}
+
+.programText{
+    text-align: center;
+}
+
+.programText span{
+    color: rgb(231,51,43);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.programText h2{
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+.programText p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+.programStructure{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* align-items: center; */ 
+}
+
+.programStructure h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+.programStructure .full-time{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+}
+
+.programStructure .part-time{
+    background-color: black;
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+}
+
+/* end of  program section */
