@@ -83,7 +83,7 @@ header h3{
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
-        padding: 20%; 
+        padding: 7%; 
         
     }
   
@@ -109,7 +109,7 @@ header h3{
         align-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 40%;
+        padding: 5%;
         
 
     }
