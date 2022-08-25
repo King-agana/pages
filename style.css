@@ -1,0 +1,130 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+span{
+    color:#E7332B;
+}
+header{
+    background-image:  url(./main.jpg) ;
+}
+header h3{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder ;
+}
+.section-1 h2{
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+.section-1 h3{
+    font-size: 120%;
+    color: rgb(123,116,116);
+}
+.section-1{
+  text-align: center;
+  padding: 10%;
+  margin-top: -5%;
+  /*background-color: red;*/
+}
+.button-1{
+    padding-top: 5%;
+   margin: 0px;
+   flex-wrap: wrap;
+   
+}
+.butt-1{
+    width: 180px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 13px;
+    border: none;
+
+}
+.butt-1:hover{
+    background-color: #fff; 
+    color: red;
+    border: 1px ridge red;
+}
+.butt-2{
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px ridge red;
+    color: red;
+    font-size: 15px;
+
+}
+.butt-2:hover{
+    background-color: red;
+    color: #fff; 
+}
+
+.section-2{
+    margin-top: 20px;
+    text-align: center;
+}
+.section-3 img{
+    width: 150px;
+    height: 150px;
+}
+
+.section-3{
+    margin: 30px;
+}
+@media(max-width:768px){
+   
+    .first, .second, .third{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        padding: 20%; 
+        
+    }
+  
+}
+.first, .second, .third{
+    background-image: url(./second.jpg) 100%;
+    margin-bottom: 10%;
+}
+.section-4 img{
+    width: 20px;
+}
+.section-4{
+    display: flex;
+    justify-content: space-evenly;
+   
+    flex-wrap: wrap;
+    padding: 3%;
+}
+@media(max-width:768px){
+    .section-4{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 40%;
+        
+
+    }
+}
+
+hr{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #fff 1.5px;
+    border-style: inset;
+}
+
+footer h2{
+ text-align: center;
+ margin-top: 5%;
+ margin-bottom: 8%;
+}
